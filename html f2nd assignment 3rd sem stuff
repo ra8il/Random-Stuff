@@ -1,0 +1,23 @@
+<q4>
+content
+padding
+border 
+margin
+
+div: block section area
+
+q5
+
+position: absolute, relative, fixed, sticky.. and flex items
+
+z-index: auto, number, initial, inherit
+in code:
+
+wrapper{
+
+}
+box1, box2, box3 class
+
+q6
+CSS Flexbox  arranging items horizontally or vertically
+within a conatiner in a flexible and resopnsive way, without using float or positioning
