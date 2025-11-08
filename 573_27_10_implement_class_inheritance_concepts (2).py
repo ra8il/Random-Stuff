@@ -100,6 +100,23 @@ fp.close()
 
 
 # In[ ]:
+import os
+
+fp=open("myfile.txt","w")
+fp.writelines("File handling is an essential component of Python.\nIt can be used to perform general file operations.")
+fp.close()
+
+fp=open("myfile.txt","r")
+print("Reading file using 'w' mode:")
+print(fp.read())
+fp.close()
+
+fp=open("myfile.txt","w+")
+fp.writelines("Using w+ mode allows both writing and reading.\nPrevious content is replaced with new data.")
+fp.seek(0)
+print("\nReading file using 'w+' mode:")
+print(fp.read())
+fp.close()
 
 
 
